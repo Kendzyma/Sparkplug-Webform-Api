@@ -8,7 +8,7 @@
 
         1. Allow the inline script to carry out some validation. Unsafe inline is not the most secure policy however.
 
-        2. Only allow connections to "https://localhost:44347". PLEASE SET A VALID ENDPOINT
+        2. Only allow connections to "https://localhost:443". PLEASE SET A VALID ENDPOINT
 
         -->
 
@@ -115,7 +115,7 @@
 
                 var formdata = new FormData(mySparkPlugFeedback); // get data from the form
 
-                var endpoint = 'https://localhost:44311/sparkplug/api; //change this to a valid endpoint;
+                var endpoint = 'https://localhost:44311/sparkplug/api'; //change this to a valid endpoint;
 
                 fetch(endpoint, {
                     method: 'post',

@@ -32,6 +32,7 @@ namespace SparkPlug.WebForm.API.FormService
                     CustomerMessage = req.CustomerMessage,
                     CustomerName = req.CustomerName
                 };
+
                 // Inserts into db
 
                 collection.InsertOne(formToInsert);
@@ -40,7 +41,7 @@ namespace SparkPlug.WebForm.API.FormService
             }
             catch (Exception e)
             {
-                Console.WriteLine(e); //use logger;
+                Console.WriteLine(e);
             }
 
             return response;
