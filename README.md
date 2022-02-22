@@ -9,4 +9,4 @@ by the form's url and the collection is also defined by the form's name
 
 ####
 
-Start the application with from visual studio  and also Start the mongo Db compass app setting the port to the default port 27017.
+Start the application  from visual studio  and also Start the mongo Db compass app setting the port to the default port 27017.
